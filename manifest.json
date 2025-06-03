@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "CMT Author Auto-Filler",
+  "version": "1.0",
+  "description": "Fill Fast, Submit Smart - CMT Author Auto-Filler at Work!",
+  "permissions": ["storage", "scripting", "activeTab", "declarativeContent"],
+  "host_permissions": [
+    "https://cmt3.research.microsoft.com/*/Track/*/Submission/Create"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "default_title": "CMT Auto-Fill", 
+    "default_popup": "extension/popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["extension/contentScript.js"]
+    }
+  ]
+}
