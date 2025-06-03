@@ -1,0 +1,245 @@
+/* Base Styles */
+.logo-img {
+  height: 200px;
+  width: 100px;
+  object-fit: contain;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 20px;
+  width: 480px;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  box-sizing: border-box;
+  color: #333;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 20px;
+  text-align: center;
+  color: #004080;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #0078d7;
+  padding-bottom: 12px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 4px 4px 0 0;
+}
+
+h2 {
+  font-size: 17px;
+  margin: 10px 0 8px;
+  color: #00264d;
+  padding-left: 8px;
+  border-left: 4px solid #0078d7;
+}
+
+/* Labels and Inputs */
+label {
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 12px;
+  display: block;
+  color: #00264d;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 18px;
+  border: 1px solid #aaccee;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 15px;
+  background-color: #fff;
+  color: #00264d;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #005a9e;
+  box-shadow: 0 0 5px rgba(0, 90, 158, 0.4);
+  outline: none;
+}
+
+/* Buttons */
+button {
+  margin-top: 18px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background: linear-gradient(135deg, #0078d7 0%, #005a9e 100%);
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  text-align: center;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #005a9e 0%, #003b66 100%);
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Author Section */
+.author {
+  width: 100%;
+  margin-bottom: 22px;
+  padding: 18px;
+  background: #ffffff;
+  border: 1px solid #d1e7ff;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  position: relative;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.author:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.author-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.remove-author {
+  margin: 0;
+  padding: 6px 12px;
+  background-color: #e53935;
+  color: #fff;
+  font-size: 13px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.remove-author:hover {
+  background-color: #c62828;
+  transform: translateY(-1px);
+}
+
+.remove-author:active {
+  transform: translateY(0);
+}
+
+/* Profile Buttons */
+#profileButtons {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+.profile-button {
+  margin: 6px;
+  padding: 9px 14px;
+  border: 1px solid #005a9e;
+  border-radius: 4px;
+  background-color: #e0f2ff;
+  color: #005a9e;
+  font-size: 13px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.profile-button:hover,
+.profile-button.active {
+  background-color: #0078d7;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.profile-button:active {
+  transform: translateY(0);
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  gap: 12px;
+  width: 100%;
+}
+
+#saveAuthors,
+#addAuthor {
+  flex: 1;
+}
+
+/* Specific Buttons */
+#autoFillAuthors {
+  width: 100%;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  background: linear-gradient(135deg, #4caf50 0%, #388e3c 100%);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#autoFillAuthors:hover {
+  background: linear-gradient(135deg, #388e3c 0%, #27632a 100%);
+  transform: translateY(-1px);
+}
+
+#autoFillAuthors:active {
+  transform: translateY(0);
+}
+
+#addAuthor {
+  background: linear-gradient(135deg, #ff9800 0%, #f57c00 100%);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#addAuthor:hover {
+  background: linear-gradient(135deg, #f57c00 0%, #e64a19 100%);
+  transform: translateY(-1px);
+}
+
+#addAuthor:active {
+  transform: translateY(0);
+}
+
+/* Utility Classes */
+.hidden {
+  display: none;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.p-15 {
+  padding: 15px;
+}
