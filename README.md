@@ -1,6 +1,6 @@
 # cmt-auto-fill-extension 🚀
 
-A Chromium-based browser extension to automate filling author details in the Microsoft Conference Management Toolkit (CMT) form. Save, load and auto-fill authors’ information (Email, First Name, Last Name, Organization, Country/Region) with ease. ✍️🧑‍💻
+A Chromium-based browser extension to automate filling author details in the Microsoft Conference Management Toolkit (CMT) form. Save, load and auto-fill authors’ information (Email, First Name, Last Name, Organization, Country/Region) with ease. 
 
 ---
 
@@ -30,7 +30,7 @@ A Chromium-based browser extension to automate filling author details in the Mic
    * **Brave Browser:**
      Go to `brave://extensions` 🦁
 
-3. Enable **Developer Mode** (toggle switch at the top-right corner). 🔧
+3. Enable **Developer Mode** (toggle switch at the top-right corner) 🔧
 
 4. Click **Load unpacked** and and select the folder containing the manifest.json file. 📂
 
@@ -43,7 +43,7 @@ A Chromium-based browser extension to automate filling author details in the Mic
 1. Click the extension icon to open the popup.
 2. Enter author details (Email, First Name, Last Name, Organization, Country/Region). ✍️
 3. Click **Save Authors** to store details. 💾
-4. Use **Load Authors** to reload saved author information. 🔄
+4. Use **Load Authors** to reload saved authors' information. 🔄
 5. On the CMT submission page, click **Auto-Fill Authors** in the popup. ⚡
 6. The extension will automatically add authors and fill their details sequentially in the form. 📝
 
