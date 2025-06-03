@@ -32,7 +32,7 @@ A Chromium-based browser extension to automate filling author details in the Mic
 
 3. Enable **Developer Mode** (toggle switch at the top-right corner). 🔧
 
-4. Click **Load unpacked** and select the folder where you saved the extension files. 📂
+4. Click **Load unpacked** and and select the folder containing the manifest.json file. 📂
 
 5. The extension icon will appear on the browser toolbar. 🧩
 
